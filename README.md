@@ -1,3 +1,28 @@
+# Restaurant Menu React App
+This is a web application built with React that allows users to view the menu of a restaurant. The application is designed to be responsive and provide a great user experience on both desktop and mobile devices.
+
+# Installation
+To run the application locally, you will need to have Node.js and npm installed on your machine. Once you have those installed, you can follow these steps:
+
+Clone the repository to your local machine using git clone.
+Navigate to the root directory of the project.
+Run npm install to install the project dependencies.
+Run npm start to start the development server.
+Usage
+Once you have the development server running, you can access the application in your web browser by visiting http://localhost:3000. The application will display the restaurant's menu, which is organized by categories.
+
+Users can filter the menu items by category using the navigation menu at the top of the page. They can also search for specific items using the search bar in the top right corner of the page.
+
+Technical Details
+The application is built with React, a popular JavaScript library for building user interfaces. It uses React Router for handling navigation between pages, and Axios for making API requests to retrieve the menu data.
+
+The menu data is stored in a JSON file, which is loaded into the application using the Fetch API. This data is then used to render the menu items and categories in the application.
+
+The application is styled using CSS, with some additional styling provided by the Material UI library. It is designed to be responsive and work well on a variety of screen sizes.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
